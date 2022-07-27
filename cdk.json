@@ -39,15 +39,13 @@
       "appName": "trainings",
       "region" : "us-east-1"
     },
-    "enviornments":[
+    "environments":[
       {
         "environment":"develop",
         "branchName":"develop",
-        "accountNumber":"80171452443"
-      },
-      {
-        "environment":"production",
-        "branchName":"master"
+        "accountNumber":"80171452443",
+        "s3Encrypt":true,
+        "ddbPITRecovery":true
       }
     ]
   }
