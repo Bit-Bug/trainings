@@ -34,6 +34,21 @@
     "@aws-cdk/core:target-partitions": [
       "aws",
       "aws-cn"
+    ],
+    "globals":{
+      "appName": "trainings",
+      "region" : "us-east-1"
+    },
+    "enviornments":[
+      {
+        "environment":"develop",
+        "branchName":"develop",
+        "accountNumber":"80171452443"
+      },
+      {
+        "environment":"production",
+        "branchName":"master"
+      }
     ]
   }
 }
